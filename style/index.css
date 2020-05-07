@@ -1,1 +1,103 @@
-/* Add CSS styling here */
+/* css reset:
+	http://meyerweb.com/eric/tools/css/reset/
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 65%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+* {
+  background-color: #ffe6e6;
+}
+
+header {
+  font-family: Impact, Charcoal, sans-serif;
+  padding: 25px;
+  text-align: center;
+  line-height: 2.5rem
+}
+
+h1 {
+  display:flex;
+  justify-content:center;
+  background-color: #ff80d5;
+}
+
+h2 {
+  display: flex;
+  background-color: pink;
+  justify-content:center;
+}
+
+p { 
+  margin-top:1%;
+  margin-right:10%;
+  margin-left:10%;
+  margin-bottom: 1%;
+  text-align:center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+    display:flex;
+    flex-wrap:center;
+    text-align:center;
+    width: 80%;
+    height: 10%;
+   border-radius: 50% 
+}
+
+.images-text {
+  display: flex;
+  align-items: center; 
+  flex-direction: row;  
+  padding: 1em 1.9em 4em 5em;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 2em 1em 1em 2em;
+}
+
+nav .links{
+  margin-top:0.1em;
+  margin-right:1.3em;
+  margin-left:1.3em;
+  margin-bottom: 1.3em;
+  text-align:center;
+}
+
+@media (max-width: 500px){
+  .header {
+  padding: 2em;
+  text-align: center;
+    line-height: 1rem}
+  
+@media (max-width: 800px){
+nav .links{
+  text-align: right;
+}}}
